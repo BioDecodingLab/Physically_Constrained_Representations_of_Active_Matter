@@ -1,0 +1,69 @@
+auto_download: false
+batch_size: 16
+bootstrap_samples: 2000
+branch_epochs: 60
+data_root: ../../../artifacts/project/data/active_matter/data
+derivative: spectral
+device: cuda:0
+effective_batch: 32
+expected_counts:
+- 175
+- 24
+- 26
+expected_dt: 0.25
+expected_frames: 81
+expected_length:
+- 10.0
+- 10.0
+expected_shape:
+- 256
+- 256
+fields:
+  D: D
+  E: E
+  c: concentration
+  v: velocity
+forecast_epochs: 60
+forecast_width: 256
+grad_clip: 1.0
+history: 4
+horizon: 10
+include_realizable: true
+lambdas:
+- 0.01
+latent_dim: 512
+learning_rate: 0.0001
+pod_batch: 512
+ramp_epochs: 5
+realizable_lambdas:
+- 0.001
+reconstruction_guard: 1.05
+residual_rms_max:
+- 0.001
+- 0.001
+- 0.05
+- 0.05
+ridge_alphas:
+- 0.001
+- 0.01
+- 0.1
+- 1.0
+- 10.0
+- 100.0
+run_dir: ../../../artifacts/project/runs/compression_d512
+seeds:
+- 1729
+- 2718
+- 31415
+synthetic: false
+threads: 8
+trace_rmse_max: 0.01
+warmup_epochs: 20
+weight_decay: 1.0e-08
+widths:
+- 32
+- 64
+- 128
+- 256
+worker_transport: torch
+workers: 8
