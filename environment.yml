@@ -1,0 +1,8 @@
+name: active-matter
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+# After activation, install the selected PyTorch wheel and requirements.txt
+# using the commands in README.md.

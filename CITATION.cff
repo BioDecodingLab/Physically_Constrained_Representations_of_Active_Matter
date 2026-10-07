@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Cite this software and the associated study when using this workflow."
+type: software
+title: "Physical fidelity and forecasting in compressed active matter representations: reproducibility software"
+version: 1.0.0
+date-released: 2026-10-06
+authors:
+  - family-names: Guaman
+    given-names: Leonel
+    affiliation: "Escuela de Ciencias Físicas y Nanotecnología, Yachay Tech, Urcuquí, 100119, Ecuador"
+  - family-names: Limaico
+    given-names: Franklin
+    affiliation: "Escuela de Ciencias Físicas y Nanotecnología, Yachay Tech, Urcuquí, 100119, Ecuador"
+  - family-names: Morales-Navarrete
+    given-names: Hernán
+    affiliation: "Bio-Cheminformatics Research Group and Facultad de Ingeniería y Ciencias Aplicadas, Universidad de Las Américas, Quito, 170504, Ecuador"
+    email: hernan.morales@udla.edu.ec
+keywords:
+  - active matter
+  - representation learning
+  - realizability
+  - physical constraints
+  - latent forecasting

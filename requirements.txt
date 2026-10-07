@@ -1,0 +1,13 @@
+# Python 3.12; install PyTorch 2.6.0 using the CPU or CUDA index first.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+h5py==3.16.0
+PyYAML==6.0.3
+matplotlib==3.10.8
+tqdm==4.70.1
+pandas==2.2.3
+imageio==2.38.0
+imageio-ffmpeg==0.6.0
+tabulate==0.10.0
+pytest==9.1.1
