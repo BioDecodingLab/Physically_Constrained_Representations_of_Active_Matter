@@ -36,8 +36,8 @@ The supported reference setup is Linux, Python 3.12, and PyTorch 2.6.0. A CUDA-c
 Create and activate an isolated environment:
 
 ```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
+conda create -n active-matter python=3.12 pip -y
+conda activate active-matter
 python -m pip install --upgrade pip
 ```
 
