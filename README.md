@@ -1,6 +1,6 @@
 # Physical fidelity and forecasting in compressed active matter representations
 
-Reproducibility repository for the study by Leonel Guaman, Franklin Limaico, and Hernán Morales-Navarrete. The workflow compares unconstrained, physics-constrained, realizability-constrained, and combined autoencoders against proper orthogonal decomposition (POD), then evaluates latent forecasting with linear autoregression, multilayer perceptrons, and persistence baselines.
+The workflow compares unconstrained, physics-constrained, realizability-constrained, and combined autoencoders against proper orthogonal decomposition (POD), then evaluates latent forecasting with linear autoregression, multilayer perceptrons, and persistence baselines.
 
 This repository contains data acquisition, physical measurement checks, training, representation analysis, validation diagnostics, protocol freezing, final test evaluation, and generation of the manuscript's figures, tables, supplementary data, supplementary figures, and videos. Manuscript prose is maintained independently; no module generates or edits manuscript text.
 
